@@ -1,0 +1,33 @@
+.client__list {
+	@include flex;
+}
+.client__title {
+	@include font(700, 36px, 1.17, 0.03em);
+	text-align: center;
+	margin-bottom: 50px;
+}
+.client__item {
+	margin-right: 30px;
+	&:last-child {
+		margin-right: 0;
+	}
+}
+.client__link {
+	width: 170px;
+	height: 92px;
+	color: var(--icon-fill-color);
+	border: 1px solid currentColor;
+	fill: currentColor;
+	border-radius: 4px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	@include transition(border-color, fill, 250ms, var(--cubic-bezier));
+
+	&:hover,
+	&:focus {
+		border-color: var(--accent-color);
+		fill: var(--accent-color);
+	}
+}

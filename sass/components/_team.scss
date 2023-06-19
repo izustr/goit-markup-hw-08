@@ -1,0 +1,37 @@
+.team {
+	background-color: var(--secondary-background);
+}
+.team__list {
+	@include flex;
+	flex-wrap: wrap;
+}
+.team__title {
+	@include font(700, 36px, 1.17, 0.03em);
+	text-align: center;
+	margin-bottom: 50px;
+}
+.team__item {
+	width: 270px;
+	background: var(--accessary-color);
+	box-shadow: var(--box-shadow-team);
+	border-radius: 0px 0px 4px 4px;
+	text-align: center;
+	margin-right: var(--item-margin);
+	&:last-child {
+		margin-right: 0;
+	}
+}
+.team__name {
+	@include font(500, 16px, 1.19, 0.03em);
+}
+.team__text {
+	@include font-normal(16px, 1.19, 0.03em);
+	color: var(--secondary-text-color);
+	margin-top: 10px;
+	margin-bottom: 16px;
+}
+.team__figcaption {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	align-items: center;
+}

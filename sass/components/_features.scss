@@ -1,0 +1,33 @@
+.features {
+	padding-bottom: 0;
+}
+.features__list {
+	display: flex;
+}
+.features__item {
+	margin-right: var(--item-margin);
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.features__title {
+	@include font(700, 14px, 1.15, 0.03em);
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+.features__text {
+	@include font-normal(14px, 1.72, 0.03em);
+	color: var(--secondary-text-color);
+}
+.features__icon {
+	width: 270px;
+	height: 120px;
+	background-color: var(--secondary-background);
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

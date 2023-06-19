@@ -1,0 +1,13 @@
+.logo {
+	font-family: var(--secondary-font);
+	font-style: normal;
+	@include font(700, 26px, 1.2, 0.03em);
+	color: var(--accent-color);
+	margin-right: 93px;
+	&--header-color {
+		color: var(--logo-color);
+	}
+	&--footer-color {
+		color: var(--accessary-color);
+	}
+}
