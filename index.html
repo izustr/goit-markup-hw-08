@@ -51,6 +51,11 @@
                         111</a>
                 </li>
             </ul>
+            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="menu-toggle__icon-open" width="40" height="40">
+                    <use href="./images/icons.svg#icon-menu_40px"></use>
+                </svg>
+            </button>
         </div>
     </header>
 
@@ -467,12 +472,13 @@
                 </label>
                 <label class="form__label">
                     Komentarz
-                    <textarea class="form__input form__input--comment" name="comment" placeholder="Wprowadź tekst"></textarea>
+                    <textarea class="form__input form__input--comment" name="comment"
+                        placeholder="Wprowadź tekst"></textarea>
                 </label>
 
                 <label for="statute" class="checkbox">
-                    <input type="checkbox" class="checkbox__input" name="statute_acceptance" value="statute" id="statute"
-                        required>
+                    <input type="checkbox" class="checkbox__input" name="statute_acceptance" value="statute"
+                        id="statute" required>
 
                     <span class="checkbox__icon">
                         <svg class="checkbox__vector" width="16" height="15">
@@ -488,7 +494,46 @@
             </form>
         </div>
     </div>
-    <script src="./modal.js"></script>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+            <svg class="menu-toggle__icon-close" width="40" height="40">
+                <use href="./images/icons.svg#icon-close_40px">
+                </use>
+            </svg>
+        </button>
+
+        <ul class="mobile-menu__list list">
+            <li class="mobile-menu__item"><a class="mobile-menu__link mobile-menu__link--current link"
+                    href="./index.html">Agencja</a>
+            </li>
+            <li class="mobile-menu__item"> <a class="mobile-menu__link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="mobile-menu__item"> <a class="mobile-menu__link link" href="#">Kontakt</a>
+            </li>
+        </ul>
+        <div>
+            <ul class="mobile-contact__list list">
+                <li class="mobile-contact__item">
+                    <a class="menu-contact__link menu-contact__link--tel link" href="tel:+48111111111">+48 111 111
+                        111</a>
+                </li>
+                <li class="mobile-contact__item">
+                    <a class="menu-contact__link menu-contact__link--mail link"
+                        href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+            </ul>
+            <ul class="mobile-social__list list">
+                <li class="mobile-social__item"><a class="mobile-social__link mobile-social__link--after link" href="#">Instagram</a></li>
+                <li class="mobile-social__item"><a class="mobile-social__link mobile-social__link--after link" href="#">Twitter</a></li>
+                <li class="mobile-social__item"><a class="mobile-social__link mobile-social__link--after link" href="#">Facebook</a></li>
+                <li class="mobile-social__item"><a class="mobile-social__link link" href="#">Linkedin</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>

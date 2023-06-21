@@ -1,3 +1,10 @@
+.page-header {
+	@media screen and (max-width: 767.9px) {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
 .page-header--line {
 	border-bottom: var(--border-bottom-color) solid 1px;
 }
@@ -15,6 +22,10 @@
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
+
+	@media screen and (max-width: 767.9px) {
+		display: none;
+	}
 }
 .page-header__nav-item {
 	margin-right: 46px;
@@ -25,6 +36,10 @@
 }
 .page-header__contacts-list {
 	display: flex;
+
+	@media screen and (max-width: 767.9px) {
+		display: none;
+	}
 }
 .page-header__contact-item {
 	margin-right: var(--item-margin);

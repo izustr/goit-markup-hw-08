@@ -1,3 +1,8 @@
+.about {
+	@media screen and (max-width: 1199.9px) {
+		display: none;
+	}
+}
 .about__title {
 	@include font(700, 36px, 1.17, 0.03em);
 	text-align: center;
