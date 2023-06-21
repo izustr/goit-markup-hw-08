@@ -4,6 +4,11 @@
 	@include font(700, 26px, 1.2, 0.03em);
 	color: var(--accent-color);
 	margin-right: 93px;
+
+	@media screen and (max-width: 767.9px) {
+			margin-right: 0;
+		}
+
 	&--header-color {
 		color: var(--logo-color);
 	}
