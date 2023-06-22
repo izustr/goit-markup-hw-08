@@ -1,13 +1,18 @@
 .logo {
 	font-family: var(--secondary-font);
 	font-style: normal;
-	@include font(700, 26px, 1.2, 0.03em);
+	@include font(700, 24px, 1.17, 0.03em);
 	color: var(--accent-color);
-	margin-right: 93px;
+	
 
-	@media screen and (max-width: 767.9px) {
-			margin-right: 0;
-		}
+	@media screen and (min-width: 768px) {
+		margin-right: 83px;
+	}
+	@media screen and (min-width: 1200px) {
+		margin-right: 93px;
+		font-size: 26px;
+		line-height: 1.2;
+	}
 
 	&--header-color {
 		color: var(--logo-color);
