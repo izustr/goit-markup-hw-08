@@ -5,7 +5,7 @@
 			rgba(47, 48, 58, 0.4),
 			rgba(47, 48, 58, 0.4)
 		),
-		url(../../images/background/mobile/hero1x-mobile.jpg);
+		url(../images/background/mobile/hero1x-mobile.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -23,7 +23,7 @@
 				rgba(47, 48, 58, 0.4),
 				rgba(47, 48, 58, 0.4)
 			),
-			url(../../images/background/mobile/hero2x-mobile.jpg);
+			url(../images/background/mobile/hero2x-mobile.jpg);
 	}
 
 	@media screen and (min-width: 768px) {
@@ -32,7 +32,7 @@
 				rgba(47, 48, 58, 0.4),
 				rgba(47, 48, 58, 0.4)
 			),
-			url(../../images/background/tablet/hero1x-tablet.jpg);
+			url(../images/background/tablet/hero1x-tablet.jpg);
 
 		@media (min-device-pixel-ratio: 2),
 			(-webkit-min-device-pixel-ratio: 2),
@@ -43,7 +43,7 @@
 					rgba(47, 48, 58, 0.4),
 					rgba(47, 48, 58, 0.4)
 				),
-				url(../../images/background/tablet/hero2x-tablet.jpg);
+				url(../images/background/tablet/hero2x-tablet.jpg);
 		}
 	}
 
@@ -55,7 +55,7 @@
 				rgba(47, 48, 58, 0.4),
 				rgba(47, 48, 58, 0.4)
 			),
-			url(../../images/background/deskopt/hero1x-deskopt.jpg);
+			url(../images/background/deskopt/hero1x-deskopt.jpg);
 
 		@media (min-device-pixel-ratio: 2),
 			(-webkit-min-device-pixel-ratio: 2),
@@ -66,7 +66,7 @@
 					rgba(47, 48, 58, 0.4),
 					rgba(47, 48, 58, 0.4)
 				),
-				url(../../images/background/deskopt/hero2x-deskopt.jpg);
+				url(../images/background/deskopt/hero2x-deskopt.jpg);
 		}
 	}
 }

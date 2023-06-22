@@ -457,6 +457,9 @@ button {
   .logo {
     margin-right: 83px;
   }
+  .logo--footer {
+    margin-right: 0;
+  }
 }
 @media screen and (min-width: 1200px) {
   .logo {
@@ -474,8 +477,8 @@ button {
 
 .hero {
   background-color: var(--accent-background);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/background/mobile/hero1x-mobile.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/background/mobile/hero1x-mobile.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background/mobile/hero1x-mobile.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background/mobile/hero1x-mobile.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -486,34 +489,34 @@ button {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/background/mobile/hero2x-mobile.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/background/mobile/hero2x-mobile.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background/mobile/hero2x-mobile.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background/mobile/hero2x-mobile.jpg);
   }
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/background/tablet/hero1x-tablet.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/background/tablet/hero1x-tablet.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background/tablet/hero1x-tablet.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background/tablet/hero1x-tablet.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/background/tablet/hero2x-tablet.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/background/tablet/hero2x-tablet.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background/tablet/hero2x-tablet.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background/tablet/hero2x-tablet.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
     height: 600px;
     padding: 200px 0;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/background/deskopt/hero1x-deskopt.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/background/deskopt/hero1x-deskopt.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background/deskopt/hero1x-deskopt.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background/deskopt/hero1x-deskopt.jpg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/background/deskopt/hero2x-deskopt.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/background/deskopt/hero2x-deskopt.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background/deskopt/hero2x-deskopt.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background/deskopt/hero2x-deskopt.jpg);
   }
 }
 
@@ -1089,6 +1092,19 @@ button {
   text-align: center;
 }
 @media screen and (min-width: 768px) {
+  .footer__container--style {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
   .footer__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1107,7 +1123,13 @@ button {
   margin-right: 0;
   margin-bottom: 60px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199.9px) {
+  .footer__adress-container {
+    margin-right: 144px;
+    width: 253px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .footer__adress-container {
     margin-right: 70px;
     margin-bottom: 0;
@@ -1140,7 +1162,7 @@ button {
   margin-right: 0;
   margin-bottom: 60px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .footer__social-div {
     margin-right: 78px;
     margin-bottom: 0;
@@ -1182,8 +1204,6 @@ button {
 }
 
 .footer__label {
-  width: 358px;
-  height: 50px;
   margin-right: 0;
 }
 @media screen and (min-width: 1200px) {
@@ -1193,7 +1213,7 @@ button {
 }
 
 .footer__input {
-  width: 100%;
+  width: 450px;
   height: 100%;
   padding: 15px 16px;
   font-size: 16px;
@@ -1210,6 +1230,7 @@ button {
 @media screen and (min-width: 1200px) {
   .footer__input {
     margin-bottom: 0;
+    width: 358px;
   }
 }
 
