@@ -1,12 +1,30 @@
 .portfolio-menu {
-	@include flex;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 	flex-wrap: wrap;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
+
+	@media screen and (min-width: 768px) {
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		margin-bottom: 50px;
+	}
 }
 .portfolio-menu__item {
+	margin-bottom: 15px;
 	margin-right: 8px;
 	&:last-child {
 		margin-right: 0;
+	}
+	&:nth-last-child(-n + 2) {
+		margin-bottom: 0;
+	}
+	@media screen and (min-width: 768px) {
+		margin-bottom: 0;
 	}
 }
 .portfolio-menu__btn {
