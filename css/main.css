@@ -507,6 +507,7 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .hero {
+    max-width: 1600px;
     height: 600px;
     padding: 200px 0;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background/deskopt/hero1x-deskopt.jpg);
@@ -1328,9 +1329,12 @@ button {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 450px;
-  min-height: 609px;
   background-color: var(--accessary-color);
+  width: 95%;
+  max-width: 450px;
+  height: 95%;
+  max-height: 609px;
+  overflow: scroll;
 }
 .modal__close-btn {
   position: absolute;
@@ -1345,7 +1349,8 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .modal {
-    width: 528px;
+    width: 100%;
+    max-width: 528px;
     min-height: 581px;
   }
 }
